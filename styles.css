@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -38,4 +37,30 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+
+.roll-btn {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 0 #232931;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.roll-btn:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.roll-btn:active {
+  transform: translateY(1px);
 }
